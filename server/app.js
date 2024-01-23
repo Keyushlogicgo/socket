@@ -30,7 +30,7 @@ app.use(cors(corsOptions));
 
 // Start server
 server.listen(PORT, () => {
-  console.log(`start server on port http://localhost:${PORT}`);
+  console.log(`start server on http://localhost:${PORT}`);
 });
 
 // handle socket events
